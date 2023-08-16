@@ -22,6 +22,7 @@ Assign a variable for the new list after slicing and print the variable.
 End of the program.
  
 ## Program:
+```
 #Program to circulate N values.
 #Developed by: PAVANA G
 #RegisterNumber: 212222230105
@@ -30,6 +31,7 @@ def circulate():
     n=int(input())
     l=l[n:]+l[:n]
     print("After circulating the values are:",l)
+```
 
 ## Output:
 ![Circulate-the-values-of-N-variables](out2.png)
