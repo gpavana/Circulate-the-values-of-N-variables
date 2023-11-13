@@ -1,12 +1,10 @@
 # EXP 1B:Circulate-the-values-of-N-variables
-
+## DATE:18.08.2023
 ## Aim:
 To write a python program to circulate the n variables using function concept
-
 ## Equipment’s required:
 PC
 Anaconda - Python 3.7
-
 ## Algorithm: 
 ## Step 1: 
 Define the function to circulate variables.
@@ -20,7 +18,6 @@ Using the slicing concept rotate the list
 Assign a variable for the new list after slicing and print the variable.
 ## Step 6: 
 End of the program.
- 
 ## Program:
 ```
 #Program to circulate N values.
@@ -32,9 +29,7 @@ def circulate():
     l=l[n:]+l[:n]
     print("After circulating the values are:",l)
 ```
-
 ## Output:
 ![Circulate-the-values-of-N-variables](out2.png)
-
 ## Result:
 To Circulate the value of n variables using python was executed successfully.
